@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist", // Ensures compiled output is separated
+    "typeRoots": ["./node_modules/@types", "./node_modules/hardhat/types"] // Includes Hardhat types
+  },
+  "include": ["./scripts", "./test", "./hardhat.config.ts"] // Explicitly includes these folders
+}
